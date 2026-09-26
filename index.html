@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="robots" content="noindex, nofollow">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Electric Bug Exterminator | Pest Control in South Chicago Heights, IL</title>
+<meta name="description" content="Local, direct-call pest control for South Chicago Heights and the south suburbs. Ants, roaches, rodents, termites, bed bugs, wildlife. Call (708) 754-8230.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;900&family=Big+Shoulders+Stencil+Display:wght@800;900&family=Archivo:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --volt:#FFD60A;
+  --volt-deep:#E8B800;
+  --ink:#0D0D0B;
+  --ink-2:#17170F;
+  --steel:#2A2A24;
+  --bone:#F4F1E6;
+  --arc:#5CE1FF;
+  --muted:#B9B6A6;
+  --hazard:repeating-linear-gradient(-45deg,var(--volt) 0 22px,var(--ink) 22px 44px);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  background:var(--ink);color:var(--bone);
+  font-family:"Archivo",system-ui,sans-serif;font-size:1.0625rem;line-height:1.6;
+  -webkit-font-smoothing:antialiased;overflow-x:hidden;
+}
+body::before{ /* grain */
+  content:"";position:fixed;inset:0;pointer-events:none;z-index:100;opacity:.07;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--arc);outline-offset:3px}
+.wrap{width:min(1240px,100% - 2.5rem);margin-inline:auto}
+.stencil{font-family:"Big Shoulders Stencil Display",Impact,sans-serif;font-weight:900;text-transform:uppercase;letter-spacing:.01em;line-height:.86}
+.cond{font-family:"Big Shoulders Display",Impact,sans-serif;font-weight:900;text-transform:uppercase;line-height:.9}
+.tag{font-family:"Big Shoulders Display",sans-serif;font-weight:700;text-transform:uppercase;letter-spacing:.18em;font-size:.85rem}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+
+/* ---------- top bar ---------- */
+.bar{position:sticky;top:0;z-index:50;background:var(--ink);border-bottom:2px solid var(--volt)}
+.bar .wrap{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:.7rem 0}
+.logo{display:flex;align-items:center;gap:.55rem;text-decoration:none}
+.logo svg{width:34px;height:34px;flex:none}
+.logo span{font-family:"Big Shoulders Display";font-weight:900;text-transform:uppercase;font-size:1.35rem;letter-spacing:.02em;line-height:1}
+.logo em{font-style:normal;color:var(--volt)}
+.bar nav{display:none;gap:1.6rem}
+.bar nav a{text-decoration:none;font-family:"Big Shoulders Display";font-weight:700;text-transform:uppercase;letter-spacing:.12em;font-size:.95rem;color:var(--muted);transition:color .2s}
+.bar nav a:hover{color:var(--volt)}
+.bar-call{background:var(--volt);color:var(--ink);text-decoration:none;font-family:"Big Shoulders Display";font-weight:900;font-size:1.05rem;letter-spacing:.04em;padding:.45rem .85rem;clip-path:polygon(8px 0,100% 0,calc(100% - 8px) 100%,0 100%);transition:background .2s}
+.bar-call:hover{background:var(--arc)}
+
+/* ---------- hero ---------- */
+.hero{position:relative;overflow:hidden;padding:3rem 0 0;isolation:isolate}
+.hero::after{ /* faint grid, like a panel schematic */
+  content:"";position:absolute;inset:0;z-index:-1;opacity:.08;
+  background-image:linear-gradient(var(--volt) 1px,transparent 1px),linear-gradient(90deg,var(--volt) 1px,transparent 1px);
+  background-size:56px 56px;mask-image:linear-gradient(180deg,#000 30%,transparent 90%);
+}
+.hero-top{position:relative}
+.warn{display:inline-flex;align-items:center;gap:.6rem;border:2px solid var(--volt);color:var(--volt);padding:.35rem .7rem}
+.warn svg{width:18px;height:18px}
+.hero h1{font-size:clamp(4.2rem,19vw,13.5rem);margin-top:1.2rem;color:var(--bone)}
+.hero h1 .y{color:var(--volt);display:block}
+.hero h1 .o{-webkit-text-stroke:2px var(--bone);color:transparent;display:block}
+.hero-lede{max-width:34ch;margin-top:1.4rem;font-size:1.15rem;color:var(--muted)}
+.hero-lede strong{color:var(--bone)}
+.zapbug{position:absolute;right:-6%;top:-1rem;width:58vw;max-width:520px;z-index:-1;opacity:.9}
+.zapbug .bolt{animation:flick 3.2s infinite steps(1)}
+@keyframes flick{0%,92%{opacity:1}93%{opacity:.2}95%{opacity:1}97%{opacity:.4}}
+
+/* the streak */
+.streak{
+  position:relative;margin:3.5rem -20vw 0;padding:1.6rem 20vw 1.9rem;
+  background:var(--volt);color:var(--ink);transform:rotate(-6deg);
+  box-shadow:0 0 0 6px var(--ink),0 0 0 9px var(--volt),0 30px 80px -20px rgba(255,214,10,.45);
+}
+.streak::before,.streak::after{content:"";position:absolute;left:0;right:0;height:12px;background:var(--hazard)}
+.streak::before{top:-24px}
+.streak::after{bottom:-24px}
+.streak-inner{display:flex;flex-direction:column;gap:.3rem;width:min(1240px,100vw - 2.5rem);margin-inline:auto}
+.streak .tag{letter-spacing:.22em}
+.streak a.phone{text-decoration:none;font-family:"Big Shoulders Stencil Display";font-weight:900;font-size:clamp(3.2rem,15vw,9.5rem);line-height:.9;letter-spacing:-.01em;display:inline-block;transition:color .15s,text-shadow .15s;cursor:crosshair}
+.streak a.phone:hover{color:#000;text-shadow:3px 3px 0 var(--arc),-3px -2px 0 #fff}
+.streak small{font-weight:700;font-size:1rem}
+.hero-foot{padding:5rem 0 3.5rem;display:grid;gap:1.4rem}
+.facts{display:grid;grid-template-columns:repeat(3,1fr);border-top:2px solid var(--steel);border-bottom:2px solid var(--steel)}
+.facts div{padding:1rem .6rem;border-right:2px solid var(--steel)}
+.facts div:last-child{border-right:0}
+.facts b{display:block;font-family:"Big Shoulders Display";font-weight:900;font-size:clamp(2rem,7vw,3.2rem);line-height:1;color:var(--volt)}
+.facts span{font-size:.82rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
+
+/* ---------- hazard divider ---------- */
+.tape{height:28px;background:var(--hazard);border-block:3px solid var(--ink)}
+.tape.thin{height:12px}
+
+/* ---------- manifesto ---------- */
+.manifesto{background:var(--volt);color:var(--ink);padding:5rem 0}
+.manifesto .wrap{display:grid;gap:2rem}
+.manifesto h2{font-size:clamp(3rem,11vw,7.5rem)}
+.manifesto p{font-size:1.2rem;max-width:46ch;font-weight:500}
+.manifesto p + p{margin-top:1rem}
+.manifesto .no{display:grid;gap:.5rem;margin-top:1.4rem}
+.manifesto .no li{list-style:none;font-family:"Big Shoulders Display";font-weight:900;text-transform:uppercase;font-size:1.5rem;display:flex;gap:.6rem;align-items:center}
+.manifesto .no li::before{content:"✕";display:grid;place-items:center;width:1.6rem;height:1.6rem;background:var(--ink);color:var(--volt);font-size:.95rem;flex:none}
+
+/* ---------- services: breaker panel ---------- */
+.panel-sec{padding:6rem 0}
+.sec-head{display:grid;gap:1rem;margin-bottom:3rem}
+.sec-head h2{font-size:clamp(3rem,10vw,6.5rem)}
+.sec-head h2 span{color:var(--volt)}
+.sec-head p{color:var(--muted);max-width:44ch}
+.panel{background:var(--ink-2);border:3px solid var(--steel);padding:1rem;display:grid;gap:.9rem;position:relative}
+.panel::before{content:"MAIN PANEL — ELECTRIC BUG — 60411";display:block;font-family:"Big Shoulders Display";font-weight:700;letter-spacing:.2em;font-size:.75rem;color:var(--muted);padding:.2rem .4rem .6rem;border-bottom:1px dashed var(--steel)}
+.breaker{display:grid;grid-template-columns:auto 1fr;gap:1rem;align-items:start;padding:1.2rem 1rem;background:var(--ink);border:2px solid var(--steel);transition:border-color .2s,transform .2s}
+.breaker:hover{border-color:var(--volt);transform:translateX(4px)}
+.switch{width:38px;height:62px;border:2px solid var(--muted);border-radius:4px;position:relative;background:var(--steel);flex:none}
+.switch::after{content:"";position:absolute;left:4px;right:4px;top:4px;height:26px;background:var(--volt);border-radius:2px;transition:top .25s cubic-bezier(.7,-0.3,.3,1.4),background .25s}
+.breaker:hover .switch::after{top:28px;background:var(--arc)}
+.breaker .num{font-family:"Big Shoulders Display";font-weight:700;color:var(--volt);letter-spacing:.2em;font-size:.8rem}
+.breaker h3{font-family:"Big Shoulders Display";font-weight:900;text-transform:uppercase;font-size:clamp(1.8rem,5vw,2.4rem);line-height:1;margin:.15rem 0 .45rem}
+.breaker p{color:var(--muted);font-size:.98rem}
+.breaker .targets{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.7rem}
+.breaker .targets span{font-size:.75rem;text-transform:uppercase;letter-spacing:.1em;border:1px solid var(--steel);padding:.15rem .5rem;color:var(--bone)}
+
+/* ---------- protocol ---------- */
+.protocol{padding:6rem 0;background:var(--ink-2);position:relative;overflow:hidden}
+.protocol h2{font-size:clamp(3rem,10vw,6.5rem)}
+.steps{display:grid;gap:0;margin-top:3rem;counter-reset:s}
+.step{position:relative;padding:2rem 0 2rem 5.2rem;border-top:2px solid var(--steel)}
+.step:last-child{border-bottom:2px solid var(--steel)}
+.step::before{counter-increment:s;content:"0" counter(s);position:absolute;left:0;top:1.6rem;font-family:"Big Shoulders Stencil Display";font-weight:900;font-size:3.6rem;line-height:1;color:var(--volt)}
+.step h3{font-family:"Big Shoulders Display";font-weight:900;text-transform:uppercase;font-size:2.2rem;line-height:1}
+.step p{color:var(--muted);margin-top:.4rem;max-width:48ch}
+.step:nth-child(3) h3{color:var(--arc)}
+
+/* ---------- coverage ---------- */
+.coverage{padding:6rem 0}
+.cov-grid{display:grid;gap:2.5rem}
+.towns{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:2px;background:var(--steel);border:2px solid var(--steel)}
+.towns li{background:var(--ink);padding:1.2rem 1rem;font-family:"Big Shoulders Display";font-weight:900;text-transform:uppercase;font-size:clamp(1.3rem,4.5vw,2rem);line-height:1;display:flex;flex-direction:column;gap:.4rem;transition:background .2s,color .2s}
+.towns li small{font-family:"Archivo";font-weight:500;font-size:.72rem;letter-spacing:.14em;color:var(--muted)}
+.towns li.base{background:var(--volt);color:var(--ink);grid-column:1/-1}
+.towns li.base small{color:var(--ink)}
+.towns li:not(.base):hover{background:var(--steel);color:var(--volt)}
+.cov-note{color:var(--muted);max-width:40ch}
+.cov-note strong{color:var(--bone)}
+.addr{margin-top:1.5rem;border-left:6px solid var(--volt);padding:.6rem 0 .6rem 1rem;font-style:normal}
+.addr b{display:block;font-family:"Big Shoulders Display";font-weight:900;text-transform:uppercase;font-size:1.4rem;color:var(--bone)}
+
+/* ---------- trust ---------- */
+.trust{background:var(--bone);color:var(--ink);padding:5rem 0}
+.trust .wrap{display:grid;gap:2.5rem;align-items:center}
+.rating{display:flex;align-items:flex-end;gap:1rem}
+.rating b{font-family:"Big Shoulders Stencil Display";font-weight:900;font-size:clamp(7rem,28vw,12rem);line-height:.8}
+.rating .meta{padding-bottom:.6rem}
+.bolts{display:flex;gap:4px;margin-bottom:.4rem}
+.bolts svg{width:22px;height:22px}
+.trust h2{font-size:clamp(2.4rem,8vw,4.6rem)}
+.trust p{max-width:48ch;margin-top:1rem;font-weight:500}
+
+/* ---------- final call ---------- */
+.final{position:relative;padding:6rem 0 7rem;overflow:hidden;text-align:left}
+.final::before{content:"";position:absolute;inset:auto -10% 38% -10%;height:46%;background:var(--volt);transform:rotate(-5deg);z-index:-1}
+.final{isolation:isolate}
+.final h2{font-size:clamp(3.6rem,15vw,11rem);color:var(--bone);text-shadow:0 4px 0 var(--ink)}
+.final-box{margin-top:2.5rem;background:var(--ink);border:3px solid var(--volt);padding:2rem 1.4rem;display:grid;gap:1.2rem;max-width:760px;box-shadow:12px 12px 0 var(--arc)}
+.final-box a.big{font-family:"Big Shoulders Stencil Display";font-weight:900;font-size:clamp(2.8rem,11vw,5.5rem);line-height:.9;color:var(--volt);text-decoration:none}
+.final-box a.big:hover{color:var(--arc)}
+.final-box p{color:var(--muted)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.6rem;background:var(--volt);color:var(--ink);text-decoration:none;font-family:"Big Shoulders Display";font-weight:900;text-transform:uppercase;font-size:1.35rem;letter-spacing:.06em;padding:1rem 1.6rem;clip-path:polygon(12px 0,100% 0,calc(100% - 12px) 100%,0 100%);transition:background .2s;justify-self:start}
+.btn:hover{background:var(--arc)}
+.btn svg{width:20px;height:20px}
+
+/* ---------- footer ---------- */
+footer{border-top:2px solid var(--volt);padding:2.5rem 0 3rem;color:var(--muted);font-size:.9rem}
+footer .wrap{display:grid;gap:1.2rem}
+footer .credit{font-size:.78rem;opacity:.7;letter-spacing:.04em}
+
+/* ---------- reveals ---------- */
+@supports (animation-timeline: view()){
+  .rv{animation:rise linear both;animation-timeline:view();animation-range:entry 0% entry 40%}
+  @keyframes rise{from{opacity:0;transform:translateY(40px)}to{opacity:1;transform:none}}
+}
+.streak{animation:slam .7s cubic-bezier(.2,1.4,.4,1) both .15s}
+@keyframes slam{from{transform:rotate(-6deg) translateX(-110%)}to{transform:rotate(-6deg)}}
+
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important}
+}
+
+/* ---------- desktop ---------- */
+@media (min-width:760px){
+  .bar nav{display:flex}
+  .panel{grid-template-columns:1fr 1fr;padding:1.4rem}
+  .panel::before{grid-column:1/-1}
+  .towns{grid-template-columns:repeat(3,1fr)}
+  .towns li.base{grid-column:span 3}
+  .final-box{padding:2.6rem 2.4rem}
+}
+@media (min-width:1000px){
+  .hero{padding-top:4.5rem}
+  .hero-top{display:grid;grid-template-columns:1.25fr .75fr;align-items:end}
+  .hero-lede{grid-column:1}
+  .zapbug{right:-2%;top:-2rem;width:44vw}
+  .streak{margin-top:4rem;transform:rotate(-7deg)}
+  @keyframes slam{from{transform:rotate(-7deg) translateX(-110%)}to{transform:rotate(-7deg)}}
+  .streak-inner{flex-direction:row;align-items:center;justify-content:flex-end;gap:2rem}
+  .streak-inner .lbl{text-align:right}
+  .hero-foot{grid-template-columns:1fr 1fr;align-items:end;padding-top:7rem}
+  .manifesto .wrap{grid-template-columns:1.1fr .9fr;align-items:end}
+  .sec-head{grid-template-columns:1fr 1fr;align-items:end}
+  .steps{grid-template-columns:repeat(3,1fr);gap:2.5rem}
+  .step{padding:5.5rem 0 2rem;border-bottom:2px solid var(--steel)}
+  .step::before{top:1rem}
+  .cov-grid{grid-template-columns:.8fr 1.2fr;align-items:start}
+  .trust .wrap{grid-template-columns:auto 1fr;gap:4rem}
+  .final-box{margin-left:auto}
+  footer .wrap{grid-template-columns:1fr auto;align-items:end}
+}
+</style>
+</head>
+<body>
+
+<header class="bar">
+  <div class="wrap">
+    <a class="logo" href="#top" aria-label="Electric Bug Exterminator home">
+      <svg viewBox="0 0 40 40" aria-hidden="true"><path d="M20 2 38 36H2Z" fill="#FFD60A"/><path d="M22 11l-7 13h5l-2 9 8-14h-5l3-8z" fill="#0D0D0B"/></svg>
+      <span>Electric <em>Bug</em></span>
+    </a>
+    <nav aria-label="Primary">
+      <a href="#services">Services</a>
+      <a href="#protocol">How it works</a>
+      <a href="#coverage">Service area</a>
+      <a href="#call">Contact</a>
+    </nav>
+    <a class="bar-call" href="tel:+17087548230">(708) 754-8230</a>
+  </div>
+</header>
+
+<main id="top">
+
+<section class="hero" aria-labelledby="h1">
+  <div class="wrap hero-top">
+    <div>
+      <p class="warn tag"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 1 19 18H1Z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M10 7v5M10 14v2" stroke="currentColor" stroke-width="2"/></svg>Warning: active pest control zone</p>
+      <h1 id="h1" class="stencil">Pests <span class="y">don't stand</span><span class="o">a chance.</span></h1>
+      <p class="hero-lede">Local exterminator for <strong>South Chicago Heights</strong> and the south suburbs. Roaches, rodents, termites, bed bugs — <strong>you call, we show up, it gets handled.</strong></p>
+    </div>
+  </div>
+
+  <svg class="zapbug" viewBox="0 0 400 400" aria-hidden="true">
+    <g class="bolt">
+      <path d="M250 0 190 150h45l-60 120 25-10 70-150h-45l55-110z" fill="#FFD60A"/>
+      <path d="M250 0 190 150h45l-60 120" fill="none" stroke="#5CE1FF" stroke-width="3"/>
+    </g>
+    <g transform="translate(200 290) rotate(-24)" fill="#F4F1E6">
+      <ellipse cx="0" cy="0" rx="46" ry="74"/>
+      <ellipse cx="0" cy="-82" rx="26" ry="20"/>
+      <g stroke="#F4F1E6" stroke-width="7" stroke-linecap="round" fill="none">
+        <path d="M-40-30-82-58-100-44M40-30 82-58 100-44M-44 5-96 0-118 22M44 5 96 0 118 22M-38 40-80 78-86 112M38 40 80 78 86 112"/>
+        <path d="M-10-98-40-150-70-160M10-98 40-150 70-160" stroke-width="4"/>
+      </g>
+      <path d="M0-60V70" stroke="#0D0D0B" stroke-width="4"/>
+    </g>
+    <g stroke="#5CE1FF" stroke-width="4" stroke-linecap="round">
+      <path d="M140 230l-26-10M136 262l-30 4M270 222l26-16M280 256l30 2M160 196l-12-24"/>
+    </g>
+  </svg>
+
+  <div class="streak" role="region" aria-label="Call Electric Bug Exterminator">
+    <div class="streak-inner">
+      <div class="lbl">
+        <p class="tag">Fast response — call direct</p>
+        <small>Talk to the exterminator, not a call center.</small>
+      </div>
+      <a class="phone" href="tel:+17087548230">(708) 754-8230</a>
+    </div>
+  </div>
+
+  <div class="wrap hero-foot">
+    <div class="facts">
+      <div><b>4.3</b><span>Star rating</span></div>
+      <div><b>0</b><span>Franchise middlemen</span></div>
+      <div><b>60411</b><span>Home base</span></div>
+    </div>
+    <p style="color:var(--muted);max-width:40ch">Homes, shops and warehouses across south suburban Cook County. One number. One crew. No runaround.</p>
+  </div>
+</section>
+
+<div class="tape" role="presentation"></div>
+
+<section class="manifesto" aria-labelledby="m-h">
+  <div class="wrap">
+    <h2 id="m-h" class="stencil rv">Not a franchise.<br>Not a cartoon.</h2>
+    <div class="rv">
+      <p>Electric Bug is a small, local outfit based right here in South Chicago Heights. When you call, you reach the business directly — the same people who come out, find the problem and knock it out.</p>
+      <p>Stubborn, keep-coming-back infestations are the whole point. If it's already beaten a spray bottle from the hardware store, that's where we start.</p>
+      <ul class="no">
+        <li>No national call-center queue</li>
+        <li>No mascot, no gimmicks</li>
+        <li>No leaving it half-handled</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<div class="tape thin" role="presentation"></div>
+
+<section class="panel-sec" id="services" aria-labelledby="s-h">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 id="s-h" class="stencil rv">Pick your<br><span>problem.</span></h2>
+      <p class="rv">Six circuits, one shutoff. Residential and commercial service across the south suburbs — flip the breaker that matches what's crawling around your place.</p>
+    </div>
+
+    <div class="panel">
+      <article class="breaker rv">
+        <div class="switch" aria-hidden="true"></div>
+        <div>
+          <span class="num">Circuit 01</span>
+          <h3>General pest control</h3>
+          <p>The everyday invaders that set up shop in kitchens, basements and back rooms.</p>
+          <div class="targets"><span>Ants</span><span>Roaches</span><span>Rodents</span></div>
+        </div>
+      </article>
+      <article class="breaker rv">
+        <div class="switch" aria-hidden="true"></div>
+        <div>
+          <span class="num">Circuit 02</span>
+          <h3>Termite treatment</h3>
+          <p>Termites eat structure quietly. Get them treated before the damage gets expensive.</p>
+          <div class="targets"><span>Inspection</span><span>Treatment</span></div>
+        </div>
+      </article>
+      <article class="breaker rv">
+        <div class="switch" aria-hidden="true"></div>
+        <div>
+          <span class="num">Circuit 03</span>
+          <h3>Bed bug extermination</h3>
+          <p>Bed bugs don't leave on their own. Targeted treatment to wipe out the infestation.</p>
+          <div class="targets"><span>Bedrooms</span><span>Furniture</span></div>
+        </div>
+      </article>
+      <article class="breaker rv">
+        <div class="switch" aria-hidden="true"></div>
+        <div>
+          <span class="num">Circuit 04</span>
+          <h3>Wildlife &amp; rodent removal</h3>
+          <p>Scratching in the walls or the attic? We get the unwanted tenants out.</p>
+          <div class="targets"><span>Mice</span><span>Rats</span><span>Wildlife</span></div>
+        </div>
+      </article>
+      <article class="breaker rv">
+        <div class="switch" aria-hidden="true"></div>
+        <div>
+          <span class="num">Circuit 05</span>
+          <h3>Seasonal prevention plans</h3>
+          <p>Quarterly and seasonal service so pests stay out instead of showing up every spring.</p>
+          <div class="targets"><span>Quarterly</span><span>Seasonal</span></div>
+        </div>
+      </article>
+      <article class="breaker rv">
+        <div class="switch" aria-hidden="true"></div>
+        <div>
+          <span class="num">Circuit 06</span>
+          <h3>Commercial service</h3>
+          <p>Small businesses, storefronts and warehouses that can't afford a pest problem on the books.</p>
+          <div class="targets"><span>Warehouses</span><span>Shops</span><span>Offices</span></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="protocol" id="protocol" aria-labelledby="p-h">
+  <div class="wrap">
+    <p class="tag" style="color:var(--volt)">Standard operating procedure</p>
+    <h2 id="p-h" class="stencil rv" style="margin-top:.6rem">Three steps.<br>No fluff.</h2>
+    <div class="steps">
+      <div class="step rv">
+        <h3>Call</h3>
+        <p>Dial (708) 754-8230. Tell us what you're seeing and where. You're talking to the business itself — not a script.</p>
+      </div>
+      <div class="step rv">
+        <h3>Inspect</h3>
+        <p>We come out fast, find where they're getting in and how bad it is, and give you a straight quote.</p>
+      </div>
+      <div class="step rv">
+        <h3>Zap</h3>
+        <p>Treatment gets done. For repeat offenders, a prevention plan keeps the problem from coming back.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="tape thin" role="presentation"></div>
+
+<section class="coverage" id="coverage" aria-labelledby="c-h">
+  <div class="wrap cov-grid">
+    <div class="rv">
+      <p class="tag" style="color:var(--volt)">Service area</p>
+      <h2 id="c-h" class="stencil" style="font-size:clamp(3rem,10vw,6rem);margin:.6rem 0 1.2rem">Your block.<br>Our turf.</h2>
+      <p class="cov-note">Based in <strong>South Chicago Heights</strong> and covering the surrounding south suburbs of Cook County. Close by means we get there quicker.</p>
+      <address class="addr">
+        <b>Electric Bug Exterminator</b>
+        3045 Jackson Ave #5432<br>South Chicago Heights, IL 60411
+      </address>
+      <p class="cov-note" style="margin-top:1rem">Not on the list? Call anyway — if you're nearby, ask.</p>
+    </div>
+    <ul class="towns rv" aria-label="Towns served">
+      <li class="base"><small>Home base</small>South Chicago Heights</li>
+      <li><small>Covered</small>Chicago Heights</li>
+      <li><small>Covered</small>Ford Heights</li>
+      <li><small>Covered</small>Steger</li>
+      <li><small>Covered</small>Sauk Village</li>
+      <li><small>Covered</small>South Suburbs</li>
+    </ul>
+  </div>
+</section>
+
+<section class="trust" aria-labelledby="t-h">
+  <div class="wrap">
+    <div class="rating rv">
+      <b>4.3</b>
+      <div class="meta">
+        <div class="bolts" aria-hidden="true">
+          <svg viewBox="0 0 20 20"><path d="M12 0 4 11h5l-2 9 9-12h-5l3-8z" fill="#0D0D0B"/></svg>
+          <svg viewBox="0 0 20 20"><path d="M12 0 4 11h5l-2 9 9-12h-5l3-8z" fill="#0D0D0B"/></svg>
+          <svg viewBox="0 0 20 20"><path d="M12 0 4 11h5l-2 9 9-12h-5l3-8z" fill="#0D0D0B"/></svg>
+          <svg viewBox="0 0 20 20"><path d="M12 0 4 11h5l-2 9 9-12h-5l3-8z" fill="#0D0D0B"/></svg>
+          <svg viewBox="0 0 20 20"><path d="M12 0 4 11h5l-2 9 9-12h-5l3-8z" fill="#0D0D0B" opacity=".3"/></svg>
+        </div>
+        <span class="tag">From 11 customer reviews</span>
+      </div>
+    </div>
+    <div class="rv">
+      <h2 id="t-h" class="stencil">Small crew.<br>Solid record.</h2>
+      <p>We're not the biggest name in the south suburbs, and we don't pretend to be. What you get is a local exterminator with a 4.3 rating who picks up the phone and handles the job himself.</p>
+    </div>
+  </div>
+</section>
+
+<section class="final" id="call" aria-labelledby="f-h">
+  <div class="wrap">
+    <h2 id="f-h" class="stencil rv">Seeing bugs?<br>Pull the plug.</h2>
+    <div class="final-box rv">
+      <p class="tag" style="color:var(--arc)">Fast inspection &amp; quote</p>
+      <a class="big" href="tel:+17087548230">(708) 754-8230</a>
+      <p>Call direct for a fast pest inspection or quote in South Chicago Heights, Chicago Heights, Ford Heights, Steger, Sauk Village and nearby.</p>
+      <a class="btn" href="tel:+17087548230">
+        <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M12 0 4 11h5l-2 9 9-12h-5l3-8z" fill="currentColor"/></svg>
+        Call now
+      </a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>
+      <a class="logo" href="#top" aria-label="Back to top">
+        <svg viewBox="0 0 40 40" aria-hidden="true"><path d="M20 2 38 36H2Z" fill="#FFD60A"/><path d="M22 11l-7 13h5l-2 9 8-14h-5l3-8z" fill="#0D0D0B"/></svg>
+        <span style="color:var(--bone)">Electric <em>Bug</em> Exterminator</span>
+      </a>
+      <p style="margin-top:.8rem">3045 Jackson Ave #5432, South Chicago Heights, IL 60411 · <a href="tel:+17087548230">(708) 754-8230</a></p>
+    </div>
+    <div>
+      <p>© 2026 Electric Bug Exterminator</p>
+      <p class="credit">Website sample by Wild Card Creative Co</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
